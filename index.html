@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabila Haninditia | Portfolio</title>
+
+    <!-- Google Fonts: Playfair Display (Serif) & Inter (Sans-serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR (Tidak sticky, scroll natural) -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <!-- Teks Logo Diubah -->
+            <a href="#" class="logo">Nabila Haninditia</a>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#cv" class="nav-link">CV</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION DENGAN FOTO -->
+        <section id="hero" class="hero-section fade-in">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm Nabila Haninditia</h1>
+                    <h2 class="subtitle">Information Systems Student at BINUS University</h2>
+                    <p class="focus-areas">Data Analysis · UI/UX Design· System Analyst</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">View My Portfolio</a>
+                        <a href="assets/Nabila_Haninditia_CV.pdf" target="_blank" class="btn btn-outline">View CV</a>
+                    </div>
+                </div>
+
+                <!-- Tempat Foto Kamu -->
+                <!-- Tempat Foto Kamu Bergaya Arch -->
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <!-- Foto -->
+                        <img src="assets/profile.jpg" alt="Foto Nabila Haninditia">
+
+                        <!-- Circular Badge / Stempel -->
+                        <div class="badge">
+                            <!-- SVG untuk Teks Melingkar -->
+                            <svg viewBox="0 0 100 100" width="100" height="100">
+                                <defs>
+                                    <path id="circlePath"
+                                        d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" />
+                                </defs>
+                                <text font-size="11" font-weight="600" fill="#26352B" letter-spacing="1.5">
+                                    <textPath href="#circlePath" startOffset="0%">
+                                        DATA &bull; DESIGN &bull; STRATEGY &bull;
+                                    </textPath>
+                                </text>
+                            </svg>
+                            <!-- Ikon Bintang di Tengah -->
+                            <div class="badge-icon">✦</div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title fade-in">About</h2>
+
+                <div class="about-grid">
+                    <!-- About Me -->
+                    <div class="about-block fade-in">
+                        <h3>About Me</h3>
+                        <p>I’m an Information Systems student at BINUS University with an interest in Data Analysis,
+                            Data Visualization, and UI/UX. I enjoy turning information and user needs into clear,
+                            structured, and meaningful digital experiences. Through academic projects, organizational
+                            activities, and creative projects, I have developed skills in analysis, problem solving,
+                            communication, teamwork, and design.</p>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="about-block fade-in">
+                        <h3>Education</h3>
+                        <div class="card education-card">
+                            <h4>BINUS University</h4>
+                            <p>Bachelor of Information Systems</p>
+                            <span class="date">2024 – Present</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Skills -->
+                <div class="about-block fade-in" style="margin-bottom: 50px;">
+                    <h3>Tools & Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <h4>Data & Analytics</h4>
+                            <ul>
+                                <li>Microsoft Excel</li>
+                                <li>SQL</li>
+                                <li>Power BI</li>
+                                <li>Data Visualization</li>
+                                <li>Data Analysis</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card">
+                            <h4>Design</h4>
+                            <ul>
+                                <li>Figma</li>
+                                <li>Canva</li>
+                                <li>UI/UX Design</li>
+                            </ul>
+                        </div>
+                        <div class="skill-card">
+                            <h4>Programming & Technology</h4>
+                            <ul>
+                                <li>HTML & CSS</li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>Oracle APEX</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-cert-grid">
+                    <!-- Certificates -->
+                    <div class="about-block fade-in">
+                        <h3>Certificates</h3>
+                        <div class="timeline">
+                            <div class="timeline-item card">
+                                <h4>Intro to Software Engineering</h4>
+                                <p>RevoU Coding Camp</p>
+                                <a href="assets/cert_revou.pdf" class="inline-link">View Certificate</a>
+                            </div>
+                            <div class="timeline-item card">
+                                <h4>Data Analyst & Business Intelligence</h4>
+                                <p>Dibimbing</p>
+                                <a href="assets/cert_dibimbing.pdf" class="inline-link">View Certificate</a>
+                            </div>
+                            <div class="timeline-item card">
+                                <h4>From Zero to OOP Hero Concept Using Java</h4>
+                                <p>BINUS University</p>
+                                <a href="assets/cert_binus.pdf" class="inline-link">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience, Organization & Volunteering -->
+                    <div class="about-block fade-in">
+                        <h3>Experience & Leadership</h3>
+
+                        <!-- Work Experience -->
+                        <h4 class="sub-heading">Work Experience</h4>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h4>Media Creative Intern</h4>
+                                <p>Basic Step Batch 4 &bull; Dec 2025 - Feb 2026</p>
+                            </div>
+                        </div>
+
+                        <!-- Organization -->
+                        <h4 class="sub-heading mt-2">Organization</h4>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h4>Activist of Media</h4>
+                                <p>MT BINUS &bull; Sep 2026 - Present</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Beelingua Mentor</h4>
+                                <p>BINUS University &bull; Jun 2026 - Present</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Staff of Marketing</h4>
+                                <p>ALOHA BTTF &bull; Feb 2026 - Jul 2026</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Freshmen Leader</h4>
+                                <p>BINUS University &bull; Jul 2026 - Sep 2026</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Coordinator of Consumption & P3K</h4>
+                                <p>BINUS TV Club &bull; Oct 2025</p>
+                            </div>
+                        </div>
+
+                        <!-- Volunteering -->
+                        <h4 class="sub-heading mt-2">Volunteering</h4>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h4>Education Volunteer</h4>
+                                <p>ACT OF LOVE &bull; Dec 2025</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Social Innovation Project</h4>
+                                <p>BINUS Youth Festival &bull; 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bagian Gallery / Dokumentasi -->
+                <div class="about-block fade-in mt-2" style="margin-top: 50px;">
+                    <h3>Moments & Activities</h3>
+                    <p style="margin-bottom: 20px;">A glimpse of my journey through organizations, events, and
+                        volunteering.</p>
+                    <div class="gallery-grid">
+                        <!-- Foto 1 (Bisa diisi foto ALOHA) -->
+                        <div class="gallery-item">
+                            <img src="assets/aloha.jpg" alt="ALOHA BTTF Event">
+                        </div>
+                        <!-- Foto 2 (Bisa diisi foto Freshmen Leader) -->
+                        <div class="gallery-item">
+                            <img src="assets/freshmen.jpg" alt="Freshmen Leader BINUS">
+                        </div>
+                        <!-- Foto 3 (Bisa diisi foto Volunteer) -->
+                        <div class="gallery-item">
+                            <img src="assets/volunteer.jpg" alt="Education Volunteer">
+                        </div>
+                        <!-- Foto 4 (Bisa diisi foto Beelingua / Kepanitiaan lain) -->
+                        <div class="gallery-item">
+                            <img src="assets/beelingua.jpg" alt="Beelingua Mentor">
+                        </div>
+                        <!-- Foto 5 (Bisa diisi foto BINUS TV Club) -->
+                        <div class="gallery-item">
+                            <img src="assets/binustv.jpg" alt="BINUS TV Club Media Journey">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <div class="portfolio-header fade-in">
+                    <h2 class="section-title">Selected Works</h2>
+                    <p class="section-subtitle">A selection of academic, UI/UX, data, and digital projects.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card fade-in">
+                        <div class="project-img-wrapper">
+                            <!-- Ganti dengan gambar preview UI GlowMate di folder assets -->
+                            <img src="assets/glowmate_preview.jpg" alt="GlowMate System Analysis & UI/UX">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-num">01</span>
+                                <span class="project-cat">System Analysis · UML · UI/UX</span>
+                            </div>
+                            <h3>GlowMate: AI Beauty App</h3>
+                            <p>An information system analysis and design project for an AI-based integrated beauty application, encompassing business analysis, system modeling (UML, ERD, DFD), and user interface (UI) design.</p>
+                            <p class="role"><strong>My role:</strong> System Analyst & UI Designer</p>
+
+                            <!-- Tombol langsung membuka halaman porto -->
+                            <a href="glowmate.html" class="btn btn-outline btn-sm">View Case Study</a>
+                                
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card fade-in">
+                        <div class="project-img-wrapper">
+                            <!-- Masukkan gambar preview Fitmate kamu ke folder assets, misal namanya fitmate.png -->
+                            <img src="assets/fitmate.png" alt="Fitmate UI/UX Project">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-num">02</span>
+                                <span class="project-cat">UI/UX · AI · Health </span>
+                            </div>
+                            <h3>Fitmate</h3>
+                            <p>An AI-powered nutrition app concept designed to help users track food intake, receive
+                                dietary guidance, and discover healthy recipes.</p>
+
+                            <!-- Tambahan detail role & contributors dari desainmu -->
+                            <p class="role">
+                                <strong>Role:</strong> UI/UX Designer<br>
+                            </p>
+
+                            <!-- Tombol langsung membuka file PDF lokal -->
+                            <a href="fitmate.html" class="btn btn-outline btn-sm">View Case Study</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+
+                    <div class="project-card fade-in">
+                        <div class="project-img-wrapper">
+                            <!-- Simpan screenshot cover Hampiness di folder assets, misal namanya hampiness.png -->
+                            <img src="assets/hampiness.png" alt="Hampiness System Analysis & UI/UX Project">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-num">03</span>
+                                <span class="project-cat">System Analysis · UML · UI/UX (2025/2026)</span>
+                            </div>
+                            <h3>Hampiness</h3>
+                            <p>A comprehensive information system and mobile application designed for ordering hampers,
+                                managing vendor products, and providing business reports with a 3-tier architecture.</p>
+
+                            <!-- Detail Anggota Kelompok dari Laporanmu -->
+                            <p class="role">
+                                <strong>Role:</strong> System Analyst & UI/UX Designer<br>
+                            </p>
+
+                            <!-- Kamu bisa arahkan ke file PDF laporan Hampiness atau Link Figma-nya -->
+                            <a href="hampiness.html" class="btn btn-outline btn-sm">View Case Study</a>
+                        </div>
+                    </div>
+
+                   <!-- KARTU PROYEK: SUPPLY CHAIN (GAMBAR DI KIRI, TEKS DI KANAN) -->
+                <div class="project-card" style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap;">
+                <!-- Preview Gambar di Kiri -->
+                <div class="project-img-container" style="flex: 1; min-width: 300px;">
+                    <img src="assets/supplychain_dashboard.png" alt="Supply Chain Dashboard Preview" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                </div>
+                
+                <!-- Teks & Tombol di Kanan -->
+                <div class="project-info" style="flex: 1; min-width: 280px;">
+                    <h3 style="font-size: 2rem; margin-bottom: 15px; color: var(--dark-green);">Global Supply Chain & Procurement Dashboard</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 25px; color: var(--text-color);">
+                        Enterprise logistics analytics, supplier performance tracking, and automated order fulfillment modeling using robust master data.
+                    </p>
+                    <div>
+                        <div style="margin-top: 25px;">
+    <a href="supplychain.html" class="btn btn-outline" style="display: inline-block; padding: 12px 36px;">View Case Study</a>
+</div>
+                    </div>
+                </div>
+            </div>
+                   
+        </section>
+
+        <!-- CV SECTION -->
+        <section id="cv" class="cv-section fade-in">
+            <div class="container cv-container">
+                <h2 class="section-title">Curriculum Vitae</h2>
+                <p>Interested in learning more about my experience, skills, and academic background?</p>
+                <div class="cv-buttons">
+                    <a href="assets/Nabila_Haninditia_CV.pdf" target="_blank" class="btn btn-primary">View CV</a>
+                    <a href="assets/Nabila_Haninditia_CV.pdf" download="Nabila_Haninditia_CV.pdf"
+                        class="btn btn-outline">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section fade-in">
+            <div class="container contact-container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p>I'm always open to connecting, discussing projects, and exploring internship opportunities.</p>
+
+                <div class="contact-links">
+                    <a href="mailto:nabilahaninditia@gmail.com" class="contact-card">
+                        <!-- Email Icon SVG -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        nabilahaninditia@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/nabila-haninditia-0bb2b2326/" target="_blank"
+                        class="contact-card">
+                        <!-- LinkedIn Icon SVG -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="contact-card">
+                        <!-- GitHub Icon SVG -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Nabila Ramadhani Haninditia. Portfolio </p>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
